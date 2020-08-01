@@ -1,8 +1,8 @@
 <template>
   <v-app>
+  <app-navigation-drawer></app-navigation-drawer>
     <v-app-bar app color="primary" dark>
       <span class="material-icons menuBar" @click="toggleMenu">menu</span>
-      <app-navigation-drawer></app-navigation-drawer>
     </v-app-bar>
     <v-main></v-main>
   </v-app>
