@@ -4,7 +4,12 @@
     <v-app-bar app color="primary" dark>
       <span class="material-icons menuBar" @click="toggleMenu">menu</span>
     </v-app-bar>
-    <v-main></v-main>
+    <v-main>
+      <!-- Sizes your content based upon application components -->
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
+    </v-main>
   </v-app>
 </template>
 

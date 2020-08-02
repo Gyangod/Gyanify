@@ -22,6 +22,7 @@
 <script>
 export default {
   name: 'Navigation-drawer',
+  // props: ['app'],
   data: () => {
     return {
       drawer: false
